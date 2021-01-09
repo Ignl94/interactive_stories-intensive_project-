@@ -15,3 +15,28 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* ------------------------------------------ Go with quinn section -------------------------------------- */
+
+#jkr-flex {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2em;
+}
+
+#jkr-confused {
+  float: left;
+  margin-left: 10em;
+  border: 1px solid gold;
+}
+
+#jkr-p {
+  width: 30%;
+}
+
+#happy-jkr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+}
