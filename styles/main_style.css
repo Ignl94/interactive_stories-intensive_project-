@@ -12,8 +12,7 @@ body {
 p {
   border: 1px solid grey;
   width: 55%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 /* ------------------------------------------ Go with quinn section -------------------------------------- */
@@ -34,9 +33,35 @@ p {
   width: 30%;
 }
 
-#happy-jkr {
+#happy-jkr,
+.img-edit {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2em;
+}
+
+/* -------------------------------- Universal ----------------------------------------- */
+
+.flex-sections {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+
+.small-p {
+  border: 1px solid grey;
+  width: 20%;
+}
+
+#story-box {
+  margin-bottom: 3em;
+}
+
+footer {
+  font-family: cursive;
+  font-size: larger;
+  color: red;
+  text-align: center;
 }
